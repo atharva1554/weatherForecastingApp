@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const temperatureDisplay = document.getElementById("temperature");
   const descriptionDisplay = document.getElementById("description");
   const errorMessage = document.getElementById("error-message");
-  const API_KEY = "3d8eeba24d5b3387050745847f582ae8"; //env varibales
+  // const API_KEY = "3d8eeba24d5b3387050745847f582ae8"; //instead of this API_KEY use can use your own API key by creating on the openweathermap website
 
   getWeatherBtn.addEventListener("click", async () => {
     const city = cityInput.value.trim();
